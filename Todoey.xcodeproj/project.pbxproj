@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970963352D1265A000CB73A1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970963332D1265A000CB73A1 /* Item.swift */; };
+		970963382D1267A400CB73A1 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970963362D1267A400CB73A1 /* OpenAIService.swift */; };
+		9709633C2D126CB800CB73A1 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970963392D126CB800CB73A1 /* APIKeys.swift */; };
+		9709633D2D126CB800CB73A1 /* APIKeys.template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709633A2D126CB800CB73A1 /* APIKeys.template.swift */; };
 		EB2BE4FA239524DB00FB933B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE4F9239524DB00FB933B /* AppDelegate.swift */; };
 		EB2BE4FE239524DB00FB933B /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE4FD239524DB00FB933B /* ToDoListViewController.swift */; };
 		EB2BE501239524DB00FB933B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE4FF239524DB00FB933B /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		970963332D1265A000CB73A1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		970963362D1267A400CB73A1 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		970963392D126CB800CB73A1 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		9709633A2D126CB800CB73A1 /* APIKeys.template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.template.swift; sourceTree = "<group>"; };
 		EB2BE4F6239524DB00FB933B /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2BE4F9239524DB00FB933B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB2BE4FD239524DB00FB933B /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		970963342D1265A000CB73A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				970963332D1265A000CB73A1 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		970963372D1267A400CB73A1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				970963362D1267A400CB73A1 /* OpenAIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9709633B2D126CB800CB73A1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				970963392D126CB800CB73A1 /* APIKeys.swift */,
+				9709633A2D126CB800CB73A1 /* APIKeys.template.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		EB2BE4ED239524DB00FB933B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +89,9 @@
 			children = (
 				EB2BE4F9239524DB00FB933B /* AppDelegate.swift */,
 				EB2BE4FD239524DB00FB933B /* ToDoListViewController.swift */,
+				9709633B2D126CB800CB73A1 /* Config */,
+				970963372D1267A400CB73A1 /* Services */,
+				970963342D1265A000CB73A1 /* Models */,
 				EB2BE4FF239524DB00FB933B /* Main.storyboard */,
 				EB2BE502239524DC00FB933B /* Assets.xcassets */,
 				EB2BE504239524DC00FB933B /* LaunchScreen.storyboard */,
@@ -90,8 +126,9 @@
 		EB2BE4EE239524DB00FB933B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1620;
 				ORGANIZATIONNAME = "App Brewery";
 				TargetAttributes = {
 					EB2BE4F5239524DB00FB933B = {
@@ -136,7 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB2BE4FE239524DB00FB933B /* ToDoListViewController.swift in Sources */,
+				9709633C2D126CB800CB73A1 /* APIKeys.swift in Sources */,
+				9709633D2D126CB800CB73A1 /* APIKeys.template.swift in Sources */,
+				970963352D1265A000CB73A1 /* Item.swift in Sources */,
 				EB2BE4FA239524DB00FB933B /* AppDelegate.swift in Sources */,
+				970963382D1267A400CB73A1 /* OpenAIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +229,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -198,6 +240,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -248,6 +291,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -258,6 +302,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

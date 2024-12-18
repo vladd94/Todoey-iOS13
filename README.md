@@ -17,3 +17,13 @@ A todolist app to keep track of all your tasks.
 
 ![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
 
+
+## Setup
+
+### API Keys
+1. Navigate to `Todoey/Config/`
+2. Copy `APIKeys.template.swift` to `APIKeys.swift`
+3. Replace `YOUR_OPENAI_API_KEY_HERE` with your actual OpenAI API key
+
+Note: `APIKeys.swift` is ignored by git to keep your API keys secure.
+
