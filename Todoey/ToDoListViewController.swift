@@ -3,12 +3,13 @@
 //  Todoey
 //
 
-
+import CoreData
 import UIKit
 
 class ToDoListViewController: UITableViewController {
     var itemArray : [Item] = []
-    let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Items.plist")
+    //let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Items.plist")
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,14 +18,13 @@ class ToDoListViewController: UITableViewController {
     }
     
     func loadItems(){
-        if let data = try? Data(contentsOf: dataFilePath!) {
-            let decoder = PropertyListDecoder()
-            do {
-                itemArray = try decoder.decode([Item].self, from: data)
-            }catch {
-                print("Error decoding item array, \(error)")
-            }
+        let request : NSFetchRequest<Item> = Item.fetchRequest()
+        do {
+            itemArray = try context.fetch(request)
+        }catch {
+            print("Error fetching, \(error)")
         }
+        
         tableView.reloadData()
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -47,7 +47,7 @@ class ToDoListViewController: UITableViewController {
         var textField = UITextField()
         let alert = UIAlertController(title: "Add New Item", message: "", preferredStyle: .alert   )
         let action = UIAlertAction(title: "Add Item", style: .default) {(action) in
-            var newItem = Item()
+            let newItem = Item(context: self.context)
             newItem.text = textField.text!
             self.itemArray.append(newItem)
             self.saveItems()
@@ -62,12 +62,10 @@ class ToDoListViewController: UITableViewController {
     }
     
     func saveItems(){
-        let encoder = PropertyListEncoder()
         do{
-            let data = try encoder.encode(itemArray)
-            try data.write(to: self.dataFilePath!)
+           try context.save()
         }catch {
-            print("Error encoding item array, \(error)")
+            print("Error saving and viewing the context, \(error)")
         }
         
         tableView.reloadData()
