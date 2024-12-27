@@ -2,7 +2,6 @@
 //  ViewController.swift
 //  Todoey
 //
-
 import CoreData
 import UIKit
 
@@ -14,6 +13,7 @@ class ToDoListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        print("viewDidLoad called")
         loadItems()
     }
     
