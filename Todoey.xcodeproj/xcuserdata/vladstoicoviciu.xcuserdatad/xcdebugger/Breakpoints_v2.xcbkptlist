@@ -7,72 +7,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1AA7871B-B8BC-41C6-B888-576F35EBE6E8"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Todoey/ToDoListViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5BB0D241-5109-4FEB-B87A-6E9A32D1A5E8"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Todoey/ToDoListViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "73F0BDB1-0B74-44DE-8B83-79F6D1B7C212"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Todoey/ToDoListViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4081BE13-C9D9-417F-8202-82E42FE9CDA9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Todoey/ToDoListViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "loadItems()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "ECE5808E-776D-46D9-B579-4DA572C67E46"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Todoey/AppDelegate.swift"
@@ -88,7 +24,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B9AA9663-79E7-4070-9550-7DF02B447C2C"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Todoey/AppDelegate.swift"
@@ -98,78 +34,6 @@
             endingLineNumber = "48"
             landmarkName = "persistentContainer"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "B9AA9663-79E7-4070-9550-7DF02B447C2C - 8485c2ce2dd1e7d8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.AppDelegate.persistentContainer.getter : __C.NSPersistentCloudKitContainer"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/AppDelegate.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48">
-               </Location>
-               <Location
-                  uuid = "B9AA9663-79E7-4070-9550-7DF02B447C2C - 20bd7c586a5b6f6d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; __C.NSPersistentCloudKitContainer in Todoey.AppDelegate.persistentContainer.getter : __C.NSPersistentCloudKitContainer"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/AppDelegate.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55">
-               </Location>
-               <Location
-                  uuid = "B9AA9663-79E7-4070-9550-7DF02B447C2C - eec4f4665f6713cc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.AppDelegate.persistentContainer.setter : __C.NSPersistentCloudKitContainer"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/AppDelegate.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48">
-               </Location>
-               <Location
-                  uuid = "B9AA9663-79E7-4070-9550-7DF02B447C2C - 46a4284e76d87adb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.AppDelegate.persistentContainer.modify : __C.NSPersistentCloudKitContainer"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/AppDelegate.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48">
-               </Location>
-               <Location
-                  uuid = "B9AA9663-79E7-4070-9550-7DF02B447C2C - 1d7053115778a3de"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.AppDelegate.persistentContainer.modify : __C.NSPersistentCloudKitContainer with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///%3Ccompiler-generated%3E"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -191,251 +55,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F8C73A46-313D-4F51-9C38-96F2B86A56CF"
-            shouldBeEnabled = "Yes"
+            uuid = "E2966E6D-F780-428A-8EBF-C28A01F44E88"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Todoey/ToDoListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "addButtonPressed(_:)"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "searchBarSearchButtonClicked(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F8C73A46-313D-4F51-9C38-96F2B86A56CF - aac2461a9b5658d1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.addButtonPressed(__C.UIBarButtonItem) -&gt; ()"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47">
-               </Location>
-               <Location
-                  uuid = "F8C73A46-313D-4F51-9C38-96F2B86A56CF - 5fab3601177fed39"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in Todoey.ToDoListViewController.addButtonPressed(__C.UIBarButtonItem) -&gt; ()"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47">
-               </Location>
-               <Location
-                  uuid = "F8C73A46-313D-4F51-9C38-96F2B86A56CF - 4b18a9fad33e5c59"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (__C.UITextField) -&gt; () in Todoey.ToDoListViewController.addButtonPressed(__C.UIBarButtonItem) -&gt; ()"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DE2CE0BF-0ED7-461E-8986-96337EED7F22"
-            shouldBeEnabled = "Yes"
+            uuid = "DD5E1795-7B92-42E7-A5C5-BF84726A5732"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Todoey/ToDoListViewController.swift"
+            filePath = "Todoey/Controllers/CategoryViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
-            landmarkName = "ToDoListViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "DE2CE0BF-0ED7-461E-8986-96337EED7F22 - aa68ef8f82e47d29"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.context.getter : __C.NSManagedObjectContext"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11">
-               </Location>
-               <Location
-                  uuid = "DE2CE0BF-0ED7-461E-8986-96337EED7F22 - 7313c776d13176d2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.init(style: __C.UITableViewStyle) -&gt; Todoey.ToDoListViewController"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11">
-               </Location>
-               <Location
-                  uuid = "DE2CE0BF-0ED7-461E-8986-96337EED7F22 - ba785b8abc3a5a8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Todoey.ToDoListViewController"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11">
-               </Location>
-               <Location
-                  uuid = "DE2CE0BF-0ED7-461E-8986-96337EED7F22 - 187de24bbdd5196c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Todoey.ToDoListViewController&gt;"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11">
-               </Location>
-            </Locations>
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EA2FD885-4684-4525-B002-29CCF0BBDD3F"
-            shouldBeEnabled = "Yes"
+            uuid = "F3AA116C-266F-4867-BE36-1173B741AF02"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Todoey/ToDoListViewController.swift"
+            filePath = "Todoey/Controllers/CategoryViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "9"
-            endingLineNumber = "9"
-            landmarkName = "ToDoListViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "EA2FD885-4684-4525-B002-29CCF0BBDD3F - e2d647baa324e6e9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.itemArray.getter : Swift.Array&lt;Todoey.Item&gt;"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0">
-               </Location>
-               <Location
-                  uuid = "EA2FD885-4684-4525-B002-29CCF0BBDD3F - 5d771727d9e69d8c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.itemArray.setter : Swift.Array&lt;Todoey.Item&gt;"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "9"
-                  endingLineNumber = "9">
-               </Location>
-               <Location
-                  uuid = "EA2FD885-4684-4525-B002-29CCF0BBDD3F - b6c0739fec4f8f9d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.itemArray.modify : Swift.Array&lt;Todoey.Item&gt;"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "9"
-                  endingLineNumber = "9">
-               </Location>
-               <Location
-                  uuid = "EA2FD885-4684-4525-B002-29CCF0BBDD3F - ce905ead8ff5bcbb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.itemArray.modify : Swift.Array&lt;Todoey.Item&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///%3Ccompiler-generated%3E"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0">
-               </Location>
-               <Location
-                  uuid = "EA2FD885-4684-4525-B002-29CCF0BBDD3F - 7313c776d1317710"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.init(style: __C.UITableViewStyle) -&gt; Todoey.ToDoListViewController"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "9"
-                  endingLineNumber = "9">
-               </Location>
-               <Location
-                  uuid = "EA2FD885-4684-4525-B002-29CCF0BBDD3F - ba785b8abc3a46a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Todoey.ToDoListViewController"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "9"
-                  endingLineNumber = "9">
-               </Location>
-               <Location
-                  uuid = "EA2FD885-4684-4525-B002-29CCF0BBDD3F - 187de24bbdd518ae"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todoey.ToDoListViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Todoey.ToDoListViewController&gt;"
-                  moduleName = "Todoey.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/SSD/iOS%20Projects/Todoey-iOS13/Todoey-iOS13/Todoey/ToDoListViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "9"
-                  endingLineNumber = "9">
-               </Location>
-            </Locations>
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "saveItems()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
